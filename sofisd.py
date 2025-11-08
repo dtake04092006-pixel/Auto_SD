@@ -70,7 +70,7 @@ async def click_and_message(message, grab_index, delay, bot, account_info):
         try:
             target_channel = bot.get_channel(KTB_CHANNEL_ID)
             if target_channel:
-                await target_channel.send("st b")
+                await target_channel.send("st fs")
         except:
             pass
 
@@ -134,5 +134,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
 
