@@ -20,7 +20,7 @@ except (ValueError, TypeError):
 
 GRAB_INDICES = [0, 1, 2] 
 # Tăng nhẹ thời gian grab để tránh các bot tranh nhau gửi request cùng 1 mili giây
-GRAB_TIMES = [1.4, 1.6, 1.8] 
+GRAB_TIMES = [2, 2.2, 2.3] 
 
 running_bots = []
 
@@ -147,3 +147,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
